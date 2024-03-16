@@ -99,10 +99,10 @@ li button:hover {
 .card{
   border-radius: 10px;
   background:#313338;
-  padding:20px;
+  padding:10px;
   margin-left:50px;
   text-align: center;
-  max-width: 250px;
+  max-width: 500px;
   display:inline-block;
   margin-top:80px;
 }
@@ -128,3 +128,4 @@ footer{
     
   
 }
+

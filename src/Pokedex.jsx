@@ -1,4 +1,15 @@
+import React, { useState, useEffect } from 'react';
 function Pokedex() {
+    const [pokemonData, setPokemonData] = useState(null);
+    
+    useEffect(() => {
+        fetch('https://us-central1-it-sysarch32.cloudfunctions.net/pokemon')
+          .then(response => response.json())
+          .then(data => setPokemonData(data))
+          .catch(error => console.error('Error',error));
+      }, []);
+    
+
     return(
          <header>
                  <nav className="navbar">
@@ -12,7 +23,7 @@ function Pokedex() {
                          </ul>
                      </div>
                  </nav>
-         </header>
+         </header> 
     );
  }
  

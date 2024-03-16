@@ -1,0 +1,20 @@
+.elementType{
+    margin:10px;
+}
+
+.elementType li {
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 10px; 
+    padding:5px;
+    
+  }
+.stats {
+    display: flex;
+    
+  }
+  .column p {
+    flex: 50%;
+    padding: 10px;
+    font-size: 15px;
+  }
