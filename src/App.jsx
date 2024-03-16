@@ -8,9 +8,6 @@ function App() {
     <>
       <Header/>
       <Pokedex/>
-      <Pokemon/>
-      <Pokemon/>
-      <Pokemon/>
       <Footer/>
     </>
   );

@@ -88,24 +88,20 @@ li button {
   margin-top: 20px;
   margin-right: 10px;
   background-color: #cf3636;
-  outline: none; 
-  transition: background-color 0.25s; 
+  outline: none;
+  transition: background-color 0.25s;
 }
 
 li button:hover {
   background-color: #f25550; 
   border-style: none;
 }
-.card{
-  border-radius: 10px;
-  background:#313338;
-  padding:10px;
-  margin-left:50px;
-  text-align: center;
-  max-width: 500px;
-  display:inline-block;
-  margin-top:80px;
+li button.active {
+  background-color: #f25550;
+  border-style: none;
 }
+
+
 
 img{
   max-width: 60%;
@@ -115,9 +111,7 @@ img{
   
 }
 
-.card .stud-name{
-  margin: 0;
-}
+
 
 footer{
     width:100%;
